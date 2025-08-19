@@ -1,0 +1,8 @@
+version: '3'
+services:
+  autosub:
+    build: .
+    env_file: .env
+    volumes:
+      - ./in:/data:ro
+      - ./out:/out

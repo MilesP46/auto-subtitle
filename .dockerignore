@@ -1,0 +1,13 @@
+.git
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+in/
+out/
